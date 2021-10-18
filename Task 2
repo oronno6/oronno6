@@ -1,0 +1,17 @@
+     <!-- Task 2 -->
+     
+    <script>
+        let firstName= prompt("Your First Name")
+        let lastName= prompt("Your Last Name")
+
+        let userName = firstName + ' ' + lastName;
+        let upUserName = userName.toUpperCase();
+        let secendName = userName.slice(0,4);
+        let three = userName.charAt(2);
+
+        document.write('Full Name:-' + userName + '</br>' );
+        document.write( 'Total Length:- ' + userName.length + '</br>');
+        document.write('uppercahe:-' + upUserName + '</br>');
+        document.write('Out 2 Latter:-' + secendName + '</br>');
+        document.write('Only 2nd latter:-' + three);
+     </script>
